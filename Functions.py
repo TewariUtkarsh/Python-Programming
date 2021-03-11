@@ -1,5 +1,5 @@
-def getdata():
-    '''This is the function to get the input from User'''
+def getdata():  # Function Created
+    '''This is the function to get the input from User'''   # Doc Strint Created
     getdata.name = input("Enter your Name: ")
     getdata.age = int(input("Enter your Age: "))
     getdata.prof = input("Enter your Profession: ")
@@ -10,4 +10,4 @@ def dispdata():
 # print("Welcome\n")
 # getdata()
 # dispdata()
-print(getdata.__doc__)
+print(getdata.__doc__)  # To Display Doc String
